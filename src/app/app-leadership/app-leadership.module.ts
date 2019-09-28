@@ -4,6 +4,11 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { LayoutLeadershipComponent } from './layout-leadership/layout-leadership.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { NewsEventsComponent } from './news-events/news-events.component';
+import { TechnologyPartnerComponent } from './technology-partner/technology-partner.component';
+import { WhitepapersComponent } from './whitepapers/whitepapers.component';
+import { BlogComponent } from './blog/blog.component';
+import { LeadershipComponent } from './leadership/leadership.component';
 
 const routes: Routes = [
   {
@@ -17,13 +22,37 @@ const routes: Routes = [
       {
         path: 'case-studies',
         component: TestimonialsComponent
+      },
+      {
+        path: 'new_events',
+        component: NewsEventsComponent
+      },
+      {
+        path: 'technology_partner',
+        component: TechnologyPartnerComponent
       }
+      ,
+      {
+        path: 'whitepaper',
+        component: WhitepapersComponent
+      }
+      ,
+      {
+        path: 'blog',
+        component: BlogComponent
+      }
+      ,
+      {
+        path: 'leadership',
+        component: LeadershipComponent
+      }
+      
     ]
   }
 ];
 
 @NgModule({
-  declarations: [LayoutLeadershipComponent, TestimonialsComponent],
+  declarations: [LayoutLeadershipComponent, TestimonialsComponent, NewsEventsComponent, TechnologyPartnerComponent, WhitepapersComponent, BlogComponent, LeadershipComponent],
   imports: [
     CommonModule, RouterModule.forChild(routes)
   ]

@@ -1,3 +1,4 @@
+
 /**
 Common S
 */
@@ -9,7 +10,9 @@ body{
 /*Hight*/
 .ch-80{
     height: 80px;
-
+}
+.ch-150{
+    height: 150px;
 }
 
 /*bg color*/
