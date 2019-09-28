@@ -17,6 +17,10 @@ const routes: Routes = [
   },
   {
     path: '',
+    loadChildren: () => import('./app-capabilities/app-capabilities.module').then(mod => mod.AppCapabilitiesModule)
+  },
+  {
+    path: '',
     redirectTo: '',
     pathMatch: 'full'
   }
