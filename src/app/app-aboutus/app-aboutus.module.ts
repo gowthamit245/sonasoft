@@ -11,7 +11,7 @@ const routes: Routes = [
     component: LayoutAboutusComponent,
     children: [
       {
-        path: '',
+        path: 'about-us',
         component: AboutusComponent
       }
     ]

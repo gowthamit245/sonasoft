@@ -11,11 +11,11 @@ const routes: Routes = [
     component: LayoutLeadershipComponent,
     children: [
       {
-        path: '',
+        path: 'testimonials',
         component: TestimonialsComponent
       },
       {
-        path: 'demo',
+        path: 'case-studies',
         component: TestimonialsComponent
       }
     ]

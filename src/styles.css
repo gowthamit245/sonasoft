@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+/**
+Common S
+*/
+
+/*Hight*/
+.ch-80{
+    height: 80px;
+}
+
+/*bg color*/
+.cbg-primary{
+    background: #101820;
+}
+.cbg-secondary{
+    background: #ff780e;
+}
+/*text-color*/
+.ctext-primary{
+    color: #101820;
+}
+.ctext-secondary{
+    color: #ff780e;
+}
+
+/**
+Common E
+*/
+/**
+Kumar S
+*/
+.sec-header{
+    border:1px solid #05070a;
+}
+/**
+Kumar E
+*/
