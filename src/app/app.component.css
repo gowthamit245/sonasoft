@@ -33,3 +33,32 @@ a.dropdown-item:hover {
     color: #000;
     background-color: transparent;
 }
+.footer-top p{
+    font-size: 17px;
+    color: #fff;
+    font-weight: 400;
+}
+.footer-top .font-semibold{
+    font-weight: 600;
+}
+.social i {
+    font-size: 35px;
+}
+.wrapper-img{
+    background-image: url('../assets/images/footerimage.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    -webkit-background-size: 90px 90px;
+    background-size: 90px;
+
+}
+.wrapper{
+    padding-left: 40%;
+}
+.wrapper p {
+    font-size: 20px;
+}
+.wrapper p.phone {
+    font-size: 30px;
+    color: #ff780e;
+}
