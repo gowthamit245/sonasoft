@@ -8,11 +8,11 @@ const routes: Routes = [
     loadChildren: () => import('./app-home/app-home.module').then(mod => mod.AppHomeModule)
   },
   {
-    path: 'about-us',
+    path: '',
     loadChildren: () => import('./app-aboutus/app-aboutus.module').then(mod => mod.AppAboutusModule)
   },
   {
-    path: 'leader-ship',
+    path: '',
     loadChildren: () => import('./app-leadership/app-leadership.module').then(mod => mod.AppLeadershipModule)
   },
   {
