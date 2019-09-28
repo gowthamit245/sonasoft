@@ -1,0 +1,14 @@
+.banner-text{
+    background-color: #ff780e;
+    background-attachment: fixed;
+    height: 350px;
+    background-position: center!important;
+    /* background-repeat: no-repeat!important; */
+    background-size: cover!important;
+}
+.banner-text h2{
+    font-size: 3rem;
+}
+.tech-sec-1{
+    margin-top: 2em;
+}
