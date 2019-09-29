@@ -17,7 +17,11 @@ const routes: Routes = [
   },
   {
     path: '',
+<<<<<<< Updated upstream
     loadChildren: () => import('./app-capabilities/app-capabilities.module').then(mod => mod.AppCapabilitiesModule)
+=======
+    loadChildren: () => import('./front-end/front-end.module').then(mod => mod.FrontEndModule)
+>>>>>>> Stashed changes
   },
   {
     path: '',
