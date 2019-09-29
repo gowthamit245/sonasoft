@@ -9,6 +9,7 @@ import { TechnologyPartnerComponent } from './technology-partner/technology-part
 import { WhitepapersComponent } from './whitepapers/whitepapers.component';
 import { BlogComponent } from './blog/blog.component';
 import { LeadershipComponent } from './leadership/leadership.component';
+import { SolutionsComponent } from './solutions/solutions.component';
 
 const routes: Routes = [
   {
@@ -46,13 +47,18 @@ const routes: Routes = [
         path: 'leadership',
         component: LeadershipComponent
       }
+      ,
+      {
+        path: 'solutions',
+        component: SolutionsComponent
+      }
       
     ]
   }
 ];
 
 @NgModule({
-  declarations: [LayoutLeadershipComponent, TestimonialsComponent, NewsEventsComponent, TechnologyPartnerComponent, WhitepapersComponent, BlogComponent, LeadershipComponent],
+  declarations: [LayoutLeadershipComponent, TestimonialsComponent, NewsEventsComponent, TechnologyPartnerComponent, WhitepapersComponent, BlogComponent, LeadershipComponent, SolutionsComponent],
   imports: [
     CommonModule, RouterModule.forChild(routes)
   ]
