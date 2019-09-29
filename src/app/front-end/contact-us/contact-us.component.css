@@ -1,0 +1,49 @@
+.contact-sec-banner{
+    background: #5fcbea;
+    color: white;
+    height: 405px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.img-sec{
+    height: 405px;
+    
+}
+.contact-sec-2{
+    width: 100%;
+   
+    background: #fff;
+}
+.cbg-color{
+    background-color: #eaeaeb;
+}
+
+.contact-sec-2 p{
+    /* font-weight: 100; */
+    font-size: 26px;
+
+}
+a{
+    color: #c5a47e;
+}
+.ctext-color{
+    color: white;
+}
+.cborder-btm{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.cbg-image{
+    width: 100%;
+ 
+     background-image: url('../../../assets/images/contact/contact1.jpg');
+     background-size: cover!important;
+     background-position: center!important;
+}
+.contact-sec-margin{
+    margin-top: 150px;
+   /* padding-left: 30px; */
+   margin-left: 8em;
+}
+

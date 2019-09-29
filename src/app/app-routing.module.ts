@@ -17,6 +17,10 @@ const routes: Routes = [
   },
   {
     path: '',
+    loadChildren: () => import('./front-end/front-end.module').then(mod => mod.FrontEndModule)
+  },
+  {
+    path: '',
     redirectTo: '',
     pathMatch: 'full'
   }
