@@ -17,7 +17,12 @@ const routes: Routes = [
   },
   {
     path: '',
+    loadChildren: () => import('./front-end/front-end.module').then(mod => mod.FrontEndModule)
+  },
+  {
+    path: '',
     loadChildren: () => import('./app-capabilities/app-capabilities.module').then(mod => mod.AppCapabilitiesModule)
+
   },
   {
     path: '',
