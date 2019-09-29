@@ -3,13 +3,13 @@
        <div class="row justify-content-between cbg-primary ch-80 align-items-center">
             <div class="d-inline-block py-2">
                <a href="javascript:void(0)" [routerLink]="['/']" >
-                <img src="assets/images/logo.png" class="logo d-inline-block col-6 " alt="Logo" />
+                <img src="assets/images/sonasoft_logo.png" class="logo d-inline-block col-8" alt="Logo" />
                 </a>
             </div>
             <ul class="nav nav-pills">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
-                    <div class="dropdown-menu">
+                    <a class="nav-link " href="javascript:void(0)" [routerLink]="['/about-us']">About</a>
+                    <!-- <div class="dropdown-menu">
                         <a class="dropdown-item" href="javascript:void(0)" [routerLink]="['/about-us']" >About Us</a>
                         
                         <a class="dropdown-item" href="javascript:void(0)" [routerLink]="['/community-care']">Community Care</a>
@@ -18,32 +18,35 @@
 
                         <a class="dropdown-item" href="javascript:void(0)" [routerLink]="['/ibm-partnership']">IBM Partnership</a>
    
-                    </div>
+                    </div> -->
                 </li>
-                <li class="nav-item dropdown">
+                <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Analytics</a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="javascript:void(0)">Action</a>
                         <a class="dropdown-item" href="javascript:void(0)">Another action</a>
                     </div>
-                </li>
+                </li> -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Capabilities</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="javascript:void(0)">Action</a>
-                        <a class="dropdown-item" href="javascript:void(0)">Another action</a>
-                    </div>
+                    <a class="nav-link " [routerLink]="['/big-data']" href="javascript:void(0)">Capabilities</a>
+                    <!-- <div class="dropdown-menu">
+                        <a class="dropdown-item" href="javascript:void(0)" [routerLink]="['/big-data']">Big Data</a>
+                        <a class="dropdown-item" href="javascript:void(0)">Business Intelligence</a>
+                        <a class="dropdown-item" href="javascript:void(0)">Data Warehousing & Modernization</a>
+                        <a class="dropdown-item" href="javascript:void(0)">Data Visualization & Dashboarding</a>
+                        <a class="dropdown-item" href="javascript:void(0)">Data Management</a>
+                    </div> -->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " [routerLink]="['/testimonials']" routerLinkActive="active" href="javascript:void(0)">Solutions</a>
+                    <a class="nav-link " [routerLink]="['/solutions']" routerLinkActive="active" href="javascript:void(0)">Solutions</a>
                 </li>
-                <li class="nav-item dropdown">
+                <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Thought Leadership</a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="javascript:void(0)" [routerLink]="['/testimonials']">Testimonials</a>
-                        <a class="dropdown-item" href="javascript:void(0)" [routerLink]="['/case-studies']">Case Studies</a>
+                        <a href="javascript:void(0)" [routerLink]="['/new_events']"   class="dropdown-item" >News&Events</a>
+                        <a href="javascript:void(0)" [routerLink]="['/technology_partner']"   class="dropdown-item" >Technology-partner</a>
                     </div>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link " href="javascript:void(0)" [routerLink]="['/contact']" routerLinkActive="active">Contact Us</a>
                 </li>
@@ -56,16 +59,29 @@
        </div>
     </div>
 </header> 
-
+<!-- <div class="d-block">
+    <ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>
+</div> 
+src="https://res.cloudinary.com/dakfi8l8l/video/upload/v1508827403/enquero_1_gwiexr_1_lbpuzc_a4pu01.webm?id=5689"
+src="https://res.cloudinary.com/dakfi8l8l/video/upload/v1508522085/enquero_1_gwiexr_1_lbpuzc.mp4"
+-->
+<!-- <mat-video title="" [autoplay]="true" [loop]="true" [keyboard] = "false" poster="assets/videos/Screenshot_3.png">
+    <source matVideoSource src="assets/videos/sona.mp4" type="video/mp4">
+    <source src="assets/videos/sona.webm" type="video/webm">
+    <track matVideoTrack src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+    <track src="subtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+  </mat-video> -->
+  <!-- <mat-video src="assets/videos/sona.mp4"></mat-video> -->
+ 
 <router-outlet></router-outlet>
 <footer class="d-block sec-footer  ">
     <div class="footer-top d-block py-5 cbg-primary">
         <div class="container ">
             <div class="row justify-content-between  align-items-center">
                 <div class="col-4">
-                    <a href="javascript:void(0)" [routerLink]="['/']" >
-                        <img src="assets/images/logo.png" class="logo d-inline-block col-9 px-0" alt="Logo" />
-                    </a>
+                        <a href="javascript:void(0)" [routerLink]="['/']" >
+                        <img src="assets/images/sonasoft_logo.png" class="logo d-inline-block px-0 col-8" alt="Logo" />
+                        </a>
                     <p class="font-semibold mt-2 mb-1">Corporate Head Quarters</p>
                     <p class="mb-1">22260 Haggerty Rd, Northville, MI</p>
                     <p class=" ">hello(at)datafactz.com</p>
