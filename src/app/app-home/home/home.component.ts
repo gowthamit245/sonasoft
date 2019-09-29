@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -7,7 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  videoUrl : string = "assets/videos/sona.mp4";
+  @ViewChild('videoPlayer', {static: false}) videoplayer: ElementRef;
+    toggleVideo(event: any) {
+      console.log(this.videoplayer);
+        this.videoplayer.nativeElement.play();
+    }
+  constructor() {
+    
+   }
 
   ngOnInit() {
   }
