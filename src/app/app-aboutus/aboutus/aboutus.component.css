@@ -64,6 +64,7 @@ p {
     box-sizing: border-box;
     width:100%;
     height: 470px;
+    overflow: hidden;
 }
 .sec-2-image{
     height: auto;

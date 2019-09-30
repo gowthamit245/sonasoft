@@ -42,6 +42,7 @@
 
 #datasolutions-1.Index-page--has-image {
     background-image: url('../images/new/ds-top-slider-bckg2.jpg');
+    background-size: cover;
 }
 
 #for-our-vendor-and-channel-partners {
